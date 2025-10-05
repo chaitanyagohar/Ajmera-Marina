@@ -58,7 +58,7 @@ export default function Hero({ onEnquire }) {
                 </p>
                 <button 
                    onClick={onEnquire}
-                    className="bg-[#c82a2b] hover:bg-[#a82425] text-white font-semibold rounded-lg text-lg px-6 py-3 shadow-lg transition-colors duration-300"
+                    className="btn-glare bg-[#c82a2b] hover:bg-[#a82425] text-white font-semibold rounded-lg text-lg px-6 py-3 shadow-lg transition-colors duration-300"
                 >
                     Book a Visit
                 </button>

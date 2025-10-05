@@ -1,7 +1,7 @@
-import { Inter } from 'next/font/google'
 import './globals.css'
+import { Inter } from 'next/font/google'
 import StickyButtons from "@/components/StickyButtons";
-import GlobalEnquiryProvider from "@/components/GlobalEnquiryProvider"; // NEW
+import GlobalEnquiryProvider from "@/components/GlobalEnquiryProvider";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <StickyButtons />
-        <GlobalEnquiryProvider /> {/* Handles floating button + modal */}
+        <GlobalEnquiryProvider />
       </body>
     </html>
   )

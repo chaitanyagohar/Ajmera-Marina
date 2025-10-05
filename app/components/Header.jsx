@@ -136,7 +136,7 @@ export default function Header() {
 
                     <div className="hidden md:block">
                         {/* UPDATED: Redesigned button with brand color and icon */}
-                        <a href="tel:+1234567890" className="flex items-center gap-2 text-white bg-[#c82a2b] hover:bg-[#a82425] font-medium rounded-lg text-sm px-5 py-2.5 text-center transition-colors duration-300 shadow-md">
+                        <a href="tel:+1234567890" className="btn-glare flex items-center gap-2 text-white bg-[#c82a2b] hover:bg-[#a82425] font-medium rounded-lg text-sm px-5 py-2.5 text-center transition-colors duration-300 shadow-md">
                             <PhoneIcon />
                             Call Us
                         </a>
@@ -173,7 +173,7 @@ export default function Header() {
                                 </motion.div>
                             ))}
                             <motion.div variants={mobileMenuItemVariants} className="w-11/12 pt-4">
-                                 <a href="tel:+1234567890" className="flex justify-center items-center gap-2 w-full text-center text-white bg-[#c82a2b] hover:bg-[#a82425] font-medium rounded-lg text-sm px-5 py-3 transition-colors duration-300 shadow-md">
+                                 <a href="tel:+916366026847" className="flex justify-center items-center gap-2 w-full text-center text-white bg-[#c82a2b] hover:bg-[#a82425] font-medium rounded-lg text-sm px-5 py-3 transition-colors duration-300 shadow-md">
                                     <PhoneIcon />
                                     Call Us
                                 </a>

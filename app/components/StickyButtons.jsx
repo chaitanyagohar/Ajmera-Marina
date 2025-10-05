@@ -16,7 +16,9 @@ const PhoneIcon = () => (
 );
 
 export default function StickyButtons() {
-    const phoneNumber = '911234567890'; // IMPORTANT: Replace with your actual phone number
+    // UPDATED: The phone number is now fetched from your .env.local file
+    const phoneNumber = process.env.NEXT_PUBLIC_CONTACT_NUMBER;
+
     const whatsappLink = `https://wa.me/${phoneNumber}?text=Hello! I'm interested in your project.`;
     const callLink = `tel:${phoneNumber}`;
 
@@ -27,10 +29,8 @@ export default function StickyButtons() {
                 href={whatsappLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                // UPDATED: Removed old classes and added 'btn-glare'
                 className="btn-glare flex-1 flex items-center justify-center gap-2 p-4 text-white font-bold bg-[#25D366] hover:bg-[#1DAE52] transition-colors duration-300"
             >
-                {/* The old glare <span> has been removed */}
                 <WhatsAppIcon />
                 WhatsApp
             </a>
@@ -38,10 +38,8 @@ export default function StickyButtons() {
             {/* Call Us Button */}
             <a
                 href={callLink}
-                // UPDATED: Removed old classes and added 'btn-glare'
                 className="btn-glare flex-1 flex items-center justify-center gap-2 p-4 text-white font-bold bg-blue-600 hover:bg-blue-700 transition-colors duration-300"
             >
-                {/* The old glare <span> has been removed */}
                 <PhoneIcon />
                 Call Us
             </a>

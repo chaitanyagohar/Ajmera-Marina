@@ -99,7 +99,7 @@ export default function FloorPlans() {
                       {/* View Plan opens IMAGE lightbox */}
                       <button
                         onClick={() => setSelectedPlanImage(plan.largeImageUrl)}
-                        className="flex-1 text-center bg-[#c82a2b] text-white px-5 py-3 rounded-lg font-medium hover:bg-[#a82425] transition-colors duration-300"
+                        className="btn-glare flex-1 text-center bg-[#c82a2b] text-white px-5 py-3 rounded-lg font-medium hover:bg-[#a82425] transition-colors duration-300"
                       >
                         View Plan
                       </button>
@@ -107,7 +107,7 @@ export default function FloorPlans() {
                       {/* Download opens ENQUIRY FORM */}
                       <button
                         onClick={() => openEnquiryForm(plan)}
-                        className="flex-1 text-center bg-gray-700 text-white px-5 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-300"
+                        className="btn-glare flex-1 text-center bg-gray-700 text-white px-5 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors duration-300"
                       >
                         Download
                       </button>
