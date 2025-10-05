@@ -115,7 +115,9 @@ export default function EnquiryFormModal({ isOpen, onClose }) {
                     value={formData.name}
                     placeholder="John Doe"
                     onChange={handleInputChange}
-                    className="w-full pl-10 p-3 rounded-lg border border-gray-300 bg-gray-50 placeholder-gray-600 focus:ring-2 focus:ring-[#c82a2b] focus:border-transparent transition"
+                    className="w-full pl-10 p-3 rounded-lg border border-gray-300 bg-gray-50 
+                               placeholder-gray-500 text-gray-800 focus:ring-2 
+                               focus:ring-[#c82a2b] focus:border-transparent transition"
                   />
                 </div>
                 {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
@@ -131,7 +133,9 @@ export default function EnquiryFormModal({ isOpen, onClose }) {
                     value={formData.email}
                     placeholder="you@example.com"
                     onChange={handleInputChange}
-                    className="w-full pl-10 p-3 rounded-lg border border-gray-300 bg-gray-50 placeholder-gray-600 focus:ring-2 focus:ring-[#c82a2b] focus:border-transparent transition"
+                    className="w-full pl-10 p-3 rounded-lg border border-gray-300 bg-gray-50 
+                               placeholder-gray-500 text-gray-800 focus:ring-2 
+                               focus:ring-[#c82a2b] focus:border-transparent transition"
                   />
                 </div>
                 {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
@@ -147,7 +151,9 @@ export default function EnquiryFormModal({ isOpen, onClose }) {
                     value={formData.phone}
                     placeholder="+91 12345 67890"
                     onChange={handleInputChange}
-                    className="w-full pl-10 p-3 rounded-lg border border-gray-300 bg-gray-50 placeholder-gray-600 focus:ring-2 focus:ring-[#c82a2b] focus:border-transparent transition"
+                    className="w-full pl-10 p-3 rounded-lg border border-gray-300 bg-gray-50 
+                               placeholder-gray-500 text-gray-800 focus:ring-2 
+                               focus:ring-[#c82a2b] focus:border-transparent transition"
                   />
                 </div>
                 {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
@@ -163,7 +169,9 @@ export default function EnquiryFormModal({ isOpen, onClose }) {
                     rows="4"
                     placeholder="I would like to know more about..."
                     onChange={handleInputChange}
-                    className="w-full pl-10 p-3 rounded-lg border border-gray-300 bg-gray-50 placeholder-gray-600 focus:ring-2 focus:ring-[#c82a2b] focus:border-transparent transition"
+                    className="w-full pl-10 p-3 rounded-lg border border-gray-300 bg-gray-50 
+                               placeholder-gray-500 text-gray-800 focus:ring-2 
+                               focus:ring-[#c82a2b] focus:border-transparent transition"
                   />
                 </div>
               </div>
