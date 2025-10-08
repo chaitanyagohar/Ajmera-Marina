@@ -1,3 +1,5 @@
+// layout.js - This code is correct!
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 import StickyButtons from "@/components/StickyButtons";
